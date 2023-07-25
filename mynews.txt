@@ -1,0 +1,66 @@
+github:one of the remote repository hosting service
+git :vcs(version control sytem where u can push and store yur code to a remote repository)
+1.versions ni store chesukovadaniki u need a remote place bez eppudina miru upgrade chesinnapudu new version lo bugs vaste u have to move to old version again
+so for storing this u need a palce
+2.project ni save chesukuntam
+
+1.remote repository --->ekkado server lo vunna ni folder/package
+2.local repository---->ni server lo vunna folder or package
+3.staging area
+4.working directory ---->untracked files 
+(git init ---it initializes the working dir
+git status it shows some of the fikes are untracked
+
+git add file names
+ that u have to change bz we cannot give multip,e files at a time to add
+staging area--->‌git commit -m"message"
+local repository:
+git add origin "remote repository path"
+git remote set-url orgin "path name 
+git remote -v (to check the origin)
+git push -u origin master(in which branch your code is there in local repository to find this give git branch)
+ //////////
+branch :
+What are Branches in Git?
+A branch is a pointer to a commit.
+
+Git branches are a snapshot of a project and its changes, from a specific point in time.
+
+When working on a big project, there is the main repository with all the code, often called main or master.
+
+Branching allows you to create new, independent versions of the original main working project. You might create a branch to edit it to make changes, to add a new feature, or to write a test when you're trying to fix a bug. And a new branch lets you do this without affecting the main code in any way.
+
+So to sum up – branches let you make changes to the codebase without affecting the core code until you're absolutely ready to implement those changes.
+
+This helps you keep the codebase clean and organized.if we have 10 dev working on 10 diff features of same repo then we can get messup up,so e will create a branch on our own and then raise a
+pr to merge our code to master
+generally a branch is same as master/main branch
+'
+how to create a branch
+git checkout -b :branch name"
+ -b is used to create a new branch checkout is generally used to jump between the branches 
+to delete a branch first switch to different branch and delete the the other branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
